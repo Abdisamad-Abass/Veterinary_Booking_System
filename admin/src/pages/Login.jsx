@@ -88,7 +88,7 @@ const Login = () => {
               </button>
             </div>
           </div>
-          <button className="w-full py-2 text-base text-white rounded-md bg-primary hover:bg-blue-500">
+          <button className="w-full py-2 text-base text-white rounded-md bg-primary hover:bg-white hover:text-black hover:border hover:border-black">
             Login
           </button>
           {state === "Admin" ? (
