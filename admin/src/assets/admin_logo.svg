@@ -1,0 +1,28 @@
+<svg width="400" height="150" viewBox="0 0 400 150" xmlns="http://www.w3.org/2000/svg">
+    <!-- "Vet" Text -->
+    <text x="20" y="80" font-family="Arial" font-size="50" fill="#0073b7" font-weight="bold">Vet</text>
+
+    <!-- Doctor Figure -->
+    <!-- Head -->
+    <circle cx="180" cy="40" r="18" fill="#0073b7"/>
+
+    <!-- Body -->
+    <path d="M160 90 L180 60 L200 90 Q180 110 160 90" fill="#0073b7"/>
+
+    <!-- Stethoscope Around Neck -->
+    <path d="M165 55 Q180 90 195 55" stroke="white" stroke-width="3" fill="none"/>
+    
+    <!-- Stethoscope Earpieces -->
+    <circle cx="165" cy="55" r="4" fill="white"/>
+    <circle cx="195" cy="55" r="4" fill="white"/>
+
+    <!-- Stethoscope Chest Piece -->
+    <circle cx="180" cy="85" r="5" fill="white" stroke="white" stroke-width="2"/>
+
+    <!-- Arms -->
+    <path d="M160 70 L140 85" stroke="#0073b7" stroke-width="4"/>
+    <path d="M200 70 L220 85" stroke="#0073b7" stroke-width="4"/>
+
+    <!-- "Doc" Text - Positioned Closer -->
+    <text x="230" y="80" font-family="Arial" font-size="50" fill="#0073b7" font-weight="bold">Doc</text>
+</svg>
