@@ -17,7 +17,7 @@ const Navbar = () => {
     <div className="flex items-center justify-between py-5 mb-5 text-sm border-b border-b-gray-400 sm:px-10">
       <img
         onClick={() => navigate("/")}
-        className="cursor-pointer w-44"
+        className="w-32 cursor-pointer md:w-44"
         src={assets.logo}
         alt=""
       />
@@ -91,7 +91,7 @@ const Navbar = () => {
         ) : (
           <button
             onClick={() => navigate("/login")}
-            className="px-8 py-3 font-light text-white rounded-full bg-primary md:block"
+            className="px-2 py-2 font-light text-white rounded-full md:px-8 md:py-3 bg-primary md:block"
           >
             Create account
           </button>
