@@ -65,8 +65,8 @@ const AllApointment = () => {
         </button>
       </div>
 
-      <div className="bg-white border rounded text-sm max-h-[80vh] min-h-[60vh] overflow-y-scroll">
-        <div className="hidden sm:grid grid-cols-[0.5fr_3fr_1fr_3fr_3fr_1fr_1fr] grid-flow-col py-3 px-6 border-b">
+      <div className="bg-white border rounded text-xs md:text-sm max-h-[80vh] min-h-[60vh] overflow-y-scroll">
+        <div className="hidden sm:grid grid-cols-[0.5fr_3fr_1fr_3fr_3fr_1fr_1fr] grid-flow-col py-3 md:px-6 px-3 border-b">
           <p>#</p>
           <p>User</p>
           <p>Age</p>
@@ -108,7 +108,7 @@ const AllApointment = () => {
               {item.amount}
             </p>
             {item.cancelled ? (
-              <p className="text-xs font-medium text-red-400">Cancelled</p>
+              <p className="text-xs font-medium text-red-500">Cancelled</p>
             ) : item.isCompleted ? (
               <p className="text-xs font-medium text-green-500">Completed</p>
             ) : (

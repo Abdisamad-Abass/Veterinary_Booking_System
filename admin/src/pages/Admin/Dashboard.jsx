@@ -16,7 +16,7 @@ const Dashboard = () => {
   return (
     dashData && (
       <div className="m-5">
-        <div className="flex flex-wrap gap-3">
+        <div className="grid grid-cols-1 gap-3 md:grid-cols-3">
           <div className="flex items-center gap-2 p-4 transition-all bg-white border-2 border-gray-100 rounded cursor-pointer min-w-52 hover:scale-105">
             <img className="w-14" src={assets.doctor_icon} alt="" />
             <div>

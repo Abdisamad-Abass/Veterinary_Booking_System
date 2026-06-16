@@ -49,7 +49,7 @@ const DoctorProfile = () => {
             alt=""
           />
         </div>
-        <div className="flex-1 p-8 mb-3 ml-2 bg-white border rounded-lg border-stone-300">
+        <div className="flex-1 p-8 mx-2 mb-3 bg-white border rounded-lg border-stone-300">
           {/* ------------DocInfo:name,degree,experience ------------------*/}
           <p className="flex items-center gap-2 text-3xl font-medium text-gray-700">
             {profileData.name}

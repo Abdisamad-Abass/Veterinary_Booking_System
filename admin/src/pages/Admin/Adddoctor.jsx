@@ -78,12 +78,12 @@ const Adddoctor = () => {
     }
   };
   return (
-    <form onSubmit={onSubmitHandler} className="w-full p-5 bg-[#F1F3FF]">
+    <form onSubmit={onSubmitHandler} className="w-full md:p-5 p-3 bg-[#F1F3FF]">
       <h1 className="text-lg font-bold md:text-2xl">Add Doctor</h1>
       <p className="text-gray-500">
         Register a new healthcare professional to the medical network.
       </p>
-      <div className="bg-white px-8 py-8 border rounded-xl w-full max-w-4xl max-h-[840vh] overflow-y-scroll mt-3">
+      <div className="bg-white md:px-8 px-4 py-8 border rounded-xl w-full max-w-4xl max-h-[840vh] overflow-y-scroll mt-3">
         <div className="flex flex-col items-center gap-4 mb-8 text-gray-500">
           <label
             htmlFor="doc-img"
