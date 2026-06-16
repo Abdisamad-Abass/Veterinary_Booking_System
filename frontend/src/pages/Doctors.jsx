@@ -19,6 +19,17 @@ const Doctors = () => {
   useEffect(() => {
     applyFilter();
   }, [doctors, speciality]);
+
+  const filterStyle = (active) =>
+    `w-full sm:w-auto px-4 py-2 border rounded-lg cursor-pointer
+   transition-all duration-200
+   hover:bg-indigo-50 hover:border-indigo-300 hover:shadow-sm
+   hover:scale-[1.02]
+   ${
+     active
+       ? "bg-indigo-100 border-indigo-400 text-black font-medium"
+       : "text-gray-600"
+   }`;
   return (
     <div>
       <p className="text-gray-600">Browse through the doctors specialist.</p>
@@ -38,7 +49,7 @@ const Doctors = () => {
                 ? navigate("/doctors")
                 : navigate("/doctors/Livestock Vet")
             }
-            className={`w-[94w] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer ${speciality === "Livestock Vet" ? "bg-indigo-100 text-black" : ""}`}
+            className={filterStyle(speciality === "Livestock Vet")}
           >
             Livestock Vet
           </p>
@@ -48,7 +59,7 @@ const Doctors = () => {
                 ? navigate("/doctors")
                 : navigate("/doctors/Theriogenologist")
             }
-            className={`w-[94w] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer ${speciality === "Theriogenologist" ? "bg-indigo-100 text-black" : ""}`}
+            className={filterStyle(speciality === "Theriogenologist")}
           >
             Theriogenologist
           </p>
@@ -58,7 +69,7 @@ const Doctors = () => {
                 ? navigate("/doctors")
                 : navigate("/doctors/Vet Dermatologist")
             }
-            className={`w-[94w] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer ${speciality === "Vet Dermatologist" ? "bg-indigo-100 text-black" : ""}`}
+            className={filterStyle(speciality === "Vet Dermatologist")}
           >
             Vet Dermatologist
           </p>
@@ -68,7 +79,7 @@ const Doctors = () => {
                 ? navigate("/doctors")
                 : navigate("/doctors/Vet Neonatologist")
             }
-            className={`w-[94w] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer ${speciality === "Vet Neonatologist" ? "bg-indigo-100 text-black" : ""}`}
+            className={filterStyle(speciality === "Vet Neonatologist")}
           >
             Vet Neonatologist
           </p>
@@ -78,7 +89,7 @@ const Doctors = () => {
                 ? navigate("/doctors")
                 : navigate("/doctors/Vet Neurologist")
             }
-            className={`w-[94w] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer ${speciality === "Vet Neurologist" ? "bg-indigo-100 text-black" : ""}`}
+            className={filterStyle(speciality === "Vet Neurologist")}
           >
             Vet Neurologist
           </p>
@@ -88,7 +99,7 @@ const Doctors = () => {
                 ? navigate("/doctors")
                 : navigate("/doctors/Vet Gastroenterologist")
             }
-            className={`w-[94w] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer ${speciality === "Vet Gastroenterologist" ? "bg-indigo-100 text-black" : ""}`}
+            className={filterStyle(speciality === "Vet Gastroenterologist")}
           >
             Vet Gastroenterologist
           </p>

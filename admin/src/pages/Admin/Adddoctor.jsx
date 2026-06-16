@@ -235,12 +235,15 @@ const Adddoctor = () => {
             required
           />
         </div>
-        <button
-          type="submit"
-          className="px-10 py-3 mt-4 text-white rounded-full bg-primary"
-        >
-          Add Doctor
-        </button>
+        {/* Submit button */}
+        <div className="flex items-center justify-center">
+          <button
+            type="submit"
+            className="px-10 py-3 mt-4 text-white rounded-full bg-primary hover:bg-white hover:border hover:border-black hover:text-black"
+          >
+            Add Doctor
+          </button>
+        </div>
       </div>
     </form>
   );

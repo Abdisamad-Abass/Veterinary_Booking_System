@@ -58,7 +58,7 @@ const DoctorProfile = () => {
             <p>
               {profileData.degree} - {profileData.speciality}
             </p>
-            <button className="py-0.5 px-2 text-sm rounded-full bg-blue-500 text-white">
+            <button className="py-0.5 px-3 text-xs md:text-sm rounded-full bg-blue-500 text-white">
               {profileData.experience}
             </button>
           </div>

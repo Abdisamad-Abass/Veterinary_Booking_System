@@ -42,7 +42,7 @@ const TopDoctor = () => {
           navigate("/doctors");
           scrollTo(0, 0);
         }}
-        className="px-8 py-2 mt-10 text-white bg-blue-500 rounded-full hover:bg-white hover:border hover:border-gray-400 hover:text-black"
+        className="px-8 py-2 mt-10 text-white bg-blue-500 rounded-full hover:bg-white hover:border hover:border-black hover:text-black"
       >
         more
       </button>

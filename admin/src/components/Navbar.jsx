@@ -17,10 +17,10 @@ const Navbar = () => {
     dToken && localStorage.removeItem("dToken");
   };
   return (
-    <div className="flex items-center justify-between px-4 py-3 bg-white border-b sm:px-10">
+    <div className="flex items-center justify-between px-3 py-3 bg-white border-b sm:px-6 md:px-10">
       <div className="flex items-center gap-2 text-xs">
         <img
-          className="cursor-pointer w-36 sm:w-40"
+          className="cursor-pointer w-28 sm:w-36 md:w-40"
           src={assets.admin_logo}
           alt=""
         />
@@ -30,7 +30,7 @@ const Navbar = () => {
       </div>
       <button
         onClick={logout}
-        className="px-10 py-2 text-sm text-white rounded-full bg-primary"
+        className="px-4 py-2 text-sm text-white rounded-full md:px-10 bg-primary hover:border hover:border-black hover:bg-white hover:text-black"
       >
         Logout
       </button>
