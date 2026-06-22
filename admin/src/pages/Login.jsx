@@ -25,6 +25,8 @@ const Login = () => {
           password,
         });
         if (data.success) {
+          localStorage.clear();
+
           localStorage.setItem("aToken", data.token);
           setAToken(data.token);
           navigate("/admin-dashboard");
@@ -37,6 +39,7 @@ const Login = () => {
           password,
         });
         if (data.success) {
+          localStorage.clear();
           localStorage.setItem("dToken", data.token);
           setDToken(data.token);
           navigate("/doctor-dashboard");

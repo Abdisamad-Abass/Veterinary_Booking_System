@@ -9,15 +9,18 @@
 ## 🌐 Live Demo
 
 ### 💻 Frontend (User Portal)
-- https://veterinary-booking-system.vercel.app  
-- https://veterinary-booking-system-qua4acyr3-abdisamad-tawanes-projects.vercel.app  
+
+- https://veterinary-booking-system.vercel.app
+- https://veterinary-booking-system-qua4acyr3-abdisamad-tawanes-projects.vercel.app
 
 ### 🛠️ Admin Dashboard
-- https://veterinary-booking-system-admin.vercel.app  
-- https://veterinary-booking-system-admin-poks3kc43.vercel.app  
+
+- https://veterinary-booking-system-admin.vercel.app
+- https://veterinary-booking-system-admin-poks3kc43.vercel.app
 
 ### 🔧 Backend API
-- https://veterinary-booking-system.onrender.com  
+
+- https://veterinary-booking-system.onrender.com
 
 🔐 Admin & vet dashboards require authentication.
 
@@ -26,30 +29,34 @@
 ## 🚀 Features
 
 ### 🧑‍⚕️ Users (Animal Owners)
-- 📝 Register & Login  
-- 🐶 View veterinarians  
-- 📅 Book appointments  
-- 🤖 AI Chatbot consultation  
-- 📖 View booking history  
+
+- 📝 Register & Login
+- 🐶 View veterinarians
+- 📅 Book appointments
+- 🤖 AI Chatbot consultation
+- 📖 View booking history
 
 ### 🩺 Veterinarians
-- 🔐 Secure login  
-- 🗓️ Manage appointments  
-- 📋 View bookings  
-- 💰 Track earnings  
+
+- 🔐 Secure login
+- 🗓️ Manage appointments
+- 📋 View bookings
+- 💰 Track earnings
 
 ### 🛠️ Admin
-- 🔐 Admin authentication  
-- ➕ Add veterinarians  
-- 📊 System monitoring  
-- 📅 Appointment management  
-- 📈 Reports generation  
+
+- 🔐 Admin authentication
+- ➕ Add veterinarians
+- 📊 System monitoring
+- 📅 Appointment management
+- 📈 Reports generation
 
 ---
 
 ## 🛠️ Tech Stack
 
 ### 💻 Frontend
+
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
@@ -59,6 +66,7 @@
 ---
 
 ### 🛠️ Admin Panel
+
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
@@ -67,6 +75,7 @@
 ---
 
 ### 🔧 Backend API
+
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
@@ -78,6 +87,7 @@
 ---
 
 ### 🚀 Deployment
+
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black)
 
@@ -90,7 +100,7 @@
 ├── frontend/   # User portal (Vite + React)
 ├── admin/      # Admin dashboard (Vite + React)
 └── backend/    # REST API (Node.js + Express + MongoDB)
-````
+```
 
 ---
 
@@ -203,19 +213,19 @@ http://localhost:5174
 
 ## 🔐 Authentication System
 
-* JWT-based authentication
-* Role-based access (User / Vet / Admin)
-* Protected routes for dashboards
+- JWT-based authentication
+- Role-based access (User / Vet / Admin)
+- Protected routes for dashboards
 
 ---
 
 ## 🧠 System Architecture
 
-* Users book appointments
-* Admin manages system
-* Vets handle schedules
-* Backend handles API + DB + authentication
-* Payments via Razorpay & M-Pesa
+- Users book appointments
+- Admin manages system
+- Vets handle schedules
+- Backend handles API + DB + authentication
+- Payments via Razorpay & M-Pesa
 
 ---
 

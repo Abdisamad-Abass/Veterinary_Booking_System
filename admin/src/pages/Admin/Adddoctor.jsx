@@ -89,8 +89,7 @@ const Adddoctor = () => {
             htmlFor="doc-img"
             className="flex flex-col items-center justify-center transition-all duration-300 border-2 border-gray-400 border-dashed rounded-full cursor-pointer w-28 h-28 hover:border-primary bg-gray-50 hover:bg-gray-100"
           >
-            <imgflex
-              flex-wrap
+            <img
               className="object-cover w-20 h-20 rounded-full"
               src={docImg ? URL.createObjectURL(docImg) : assets.upload_area}
               alt=""

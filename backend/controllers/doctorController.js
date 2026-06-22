@@ -32,7 +32,9 @@ const loginDoctor = async (req, res) => {
     }
     const isMatch = await bcryptjs.compare(password, doctor.password);
     if (isMatch) {
-      const token = jwt.sign({ id: doctor._id }, process.env.JWT_SECRET);
+      const token = jwt.sign({ id: doctor._id }, process.env.JWT_SECRET, {
+        expiresIn: "1d",
+      });
       res.json({ success: true, token });
     } else {
       return res.json({ success: false, message: "Invalid credentials" });

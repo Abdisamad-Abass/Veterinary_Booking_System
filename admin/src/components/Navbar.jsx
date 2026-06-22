@@ -11,10 +11,11 @@ const Navbar = () => {
   const navigate = useNavigate();
   const logout = () => {
     navigate("/");
-    atoken && setAToken("");
-    atoken && localStorage.removeItem("atoken");
-    dToken && setDToken("");
-    dToken && localStorage.removeItem("dToken");
+    localStorage.removeItem("aToken");
+    localStorage.removeItem("dToken");
+
+    setAToken("");
+    setDToken("");
   };
   return (
     <div className="flex items-center justify-between px-3 py-3 bg-white border-b sm:px-6 md:px-10">
