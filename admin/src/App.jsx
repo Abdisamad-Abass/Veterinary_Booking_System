@@ -1,6 +1,7 @@
 import { useContext, useEffect, useState } from "react";
 import Login from "./pages/Login";
 import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import { AdminContext } from "./context/AdminContext";
 import { DoctorContext } from "./context/DoctorContext";
 import Navbar from "./components/Navbar";
@@ -38,7 +39,15 @@ const App = () => {
 
   return (
     <>
-      <ToastContainer />
+      <ToastContainer
+        position="top-right"
+        autoClose={2000}
+        hideProgressBar={false}
+        newestOnTop
+        closeOnClick
+        pauseOnHover
+        theme="colored"
+      />
 
       {/*  LOGIN GATE  */}
       {!isAuthenticated ? (

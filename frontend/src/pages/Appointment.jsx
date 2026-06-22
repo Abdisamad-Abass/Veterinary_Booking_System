@@ -172,7 +172,7 @@ const Appointment = () => {
               docSlots.map((item, index) => (
                 <div
                   onClick={() => setSlotIndex(index)}
-                  className={`text-center py-6 min-w-16 rounded-full cursor-pointer ${slotIndex === index ? "bg-primary text-white" : "border border-gray-200"}`}
+                  className={`text-center py-6 min-w-16 rounded-full cursor-pointer ${slotIndex === index ? "bg-primary text-white" : "border border-gray-200 hover:bg-blue-200"}`}
                   key={index}
                 >
                   <p>{item[0] && daysOfWeek[item[0].datetime.getDay()]}</p>
@@ -195,13 +195,13 @@ const Appointment = () => {
           <div className="flex gap-4 mt-6">
             <button
               onClick={bookAppointment}
-              className="px-6 py-3 text-sm font-light text-white rounded-full bg-primary"
+              className="px-6 py-3 text-sm text-white rounded-full bg-primary hover:bg-white hover:border hover:border-black hover:text-black"
             >
-              Book an appointment
+              Book an Appointment
             </button>
             <button
               onClick={() => navigate("/chatbot")}
-              className="px-6 py-3 text-sm font-light text-white rounded-full bg-primary"
+              className="px-6 py-3 text-sm text-white rounded-full bg-primary hover:bg-white hover:border hover:border-black hover:text-black"
             >
               Chat consultation
             </button>
